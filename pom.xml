@@ -50,6 +50,7 @@
     <jsch.bundle.version>0.1.48_1</jsch.bundle.version>
     <quartz.bundle.version>2.1.5_1</quartz.bundle.version>
     <oscache.bundle.version>2.4_5</oscache.bundle.version>
+    <site.staging.base>${project.basedir}/../site</site.staging.base>
   </properties>
   <scm>
     <connection>scm:git:http://gitbox.apache.org/repos/asf/archiva-redback-components-redback-features.git</connection>
@@ -58,13 +59,6 @@
   </scm>
 
   <url>${webUrl}/${project.artifactId}</url>
-
-  <distributionManagement>
-    <site>
-      <id>apache.website</id>
-      <url>${siteUrl}/${project.artifactId}</url>
-    </site>
-  </distributionManagement>
 
   <build>
     <resources>
